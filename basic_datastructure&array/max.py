@@ -5,7 +5,7 @@
 
 from typing import Any, Sequence
 
-def max_of(a: Sequence) -> Any: # Any는 제약이 없는 임의의 자료형 의미. Sequence는 시퀀스형을 의미함. 시퀀스 자료형이라면 리스트든, 튜플이든, 문자열이든 상관없음
+def max_of(a: Sequence) -> Any: # Any는 제약이 없는 임의의 자료형을 반환한다는 의미. Sequence는 시퀀스형을 의미함. 시퀀스 자료형이라면 리스트든, 튜플이든, 문자열이든 상관없음
     max = a[0]
     for i in range(len(a)):
         if a[i] > max:
